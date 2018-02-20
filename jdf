@@ -1,0 +1,47 @@
+[33mcommit 7292fbc4d02eec613fffcda0865ba07ba37e1cf8[m
+Author: vagrant <vagrant@homestead>
+Date:   Tue Feb 20 07:32:46 2018 +0000
+
+    Use blade layout file to style posts pages
+
+[33mcommit b6f55490c605f672b3682ab248e917316fba3b43[m
+Author: Anthony Parrett <anthonyparrett7@gmail.com>
+Date:   Tue Feb 20 19:58:39 2018 -0600
+
+    Implement controllers
+
+[33mcommit a16a680088e4095fad72e5ba0a2dc19899bfe1f5[m
+Author: Anthony Parrett <anthonyparrett7@gmail.com>
+Date:   Tue Feb 20 19:33:17 2018 -0600
+
+    Recreate Tasks model and add query scope
+
+[33mcommit 3dd4539e0f0b4d9da04491933a164a639fd713f4[m
+Author: Anthony Parrett <anthonyparrett7@gmail.com>
+Date:   Tue Feb 20 19:01:57 2018 -0600
+
+    Use eloquent model to display tasks
+
+[33mcommit d30e1110071b89e0008ee4b1f090b3264d1933de[m
+Author: Anthony Parrett <anthonyparrett7@gmail.com>
+Date:   Mon Feb 19 22:35:51 2018 -0600
+
+    Show each task on its own page
+
+[33mcommit a6c76e81a34b1318520a7ca68ce1681ab9876da0[m
+Author: Anthony Parrett <anthonyparrett7@gmail.com>
+Date:   Mon Feb 19 22:19:11 2018 -0600
+
+    Fetch tasks from db
+
+[33mcommit 6f7bd4585ee733bf3fab3b765366747e16449897[m
+Author: Anthony Parrett <anthonyparrett7@gmail.com>
+Date:   Mon Feb 19 19:04:30 2018 -0600
+
+    Add database credentials.
+
+[33mcommit 70fb41d66c3e98786b046b8f59d42ae26d156402[m
+Author: Anthony Parrett <anthonyparrett7@gmail.com>
+Date:   Mon Feb 19 18:44:17 2018 -0600
+
+    Setup Laravel
