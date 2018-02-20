@@ -5,7 +5,8 @@ Route::get('/index', function(){
     $tasks = [
         'Go to the store',
         'Finish my screencast',
-        'Another task'
+        'Another task',
+        '4th task'
     ];
 
     return view('index', compact('tasks'));
