@@ -2,12 +2,7 @@
 
 Route::get('/index', function(){
     
-    $tasks = [
-        'Go to the store',
-        'Finish my screencast',
-        'Another task',
-        '4th task'
-    ];
+    $tasks = DB::table('tasks')->get();
 
     return view('index', compact('tasks'));
 });
