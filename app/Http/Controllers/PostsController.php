@@ -24,12 +24,18 @@ class PostsController extends Controller
 
     public function store()
     {
-        $post = new Post;
+        $this->validate(request(), [
+            'title' => 'required|max:15',
+            'body' => 'required'
+        ]);
 
+        $post = new Post;
         $post->title = request('title');
         $post->body = request('body');
-
         $post->save();
+        
+        // Other way of saving post.
+        // Post::create(request(['title', 'body']));
 
         return redirect('/');
     }
