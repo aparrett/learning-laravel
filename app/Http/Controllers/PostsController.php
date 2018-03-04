@@ -36,6 +36,9 @@ class PostsController extends Controller
         $post->body = request('body');
         $post->save();
         
+        session()->flash(
+            'message', 'Your post has been created'
+        );
         // Other way of saving post.
         // Post::create(request(['title', 'body']));
 
