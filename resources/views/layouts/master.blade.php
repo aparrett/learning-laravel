@@ -20,6 +20,12 @@
 
   <body>
     @include ('layouts.nav')
+
+    @if ($flash = session('message'))
+      <div id="flash-message" class="alert alert-success" role="alert">
+        {{ $flash }}
+      </div>
+    @endif
     <main role="main" class="container">
       <div class="row">
         
