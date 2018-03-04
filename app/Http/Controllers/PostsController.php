@@ -35,9 +35,6 @@ class PostsController extends Controller
         $post->title = request('title');
         $post->body = request('body');
         $post->save();
-        
-        // Other way of saving post.
-        // Post::create(request(['title', 'body']));
 
         return redirect('/');
     }
